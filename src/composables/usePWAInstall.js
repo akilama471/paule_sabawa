@@ -1,7 +1,7 @@
 import { ref, onMounted } from "vue";
 
 export function usePWAInstall() {
-  const installPrompt = ref(null); // Stores the install event
+  const installPrompt = ref(null); // Stores the installation event
   const showInstallToast = ref(false); // Controls toast visibility
 
   // Detect the 'beforeinstallprompt' event

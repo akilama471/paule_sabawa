@@ -1,19 +1,20 @@
-import { createApp } from 'vue'
+import { createApp } from 'vue';
+import { createPinia } from "pinia";
 
-import App from './App.vue'
-import router from './router'
+import App from './App.vue';
+import router from './router';
 
-import './assets/style.css'
+import './assets/style.css';
 import "animate.css";
 
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
-import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { faArrowLeft, faArrowRight, faHouse , faDownload,faVideo, faBookOpen} from "@fortawesome/free-solid-svg-icons";
 
-library.add(faArrowLeft, faArrowRight);
+library.add(faArrowLeft, faArrowRight, faHouse, faDownload, faVideo, faBookOpen);
 
 const app = createApp(App)
-
+app.use(createPinia());
 app.use(router)
 app.component("font-awesome-icon", FontAwesomeIcon)
 

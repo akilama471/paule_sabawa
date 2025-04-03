@@ -7,7 +7,12 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
-  //base: '/dist/',  Set the publicPath to /dist/
+  server: {
+    headers: {
+      historyApiFallback: true,
+    }
+  },
+  base: '/',
   plugins: [
     vue(),
     VitePWA({
@@ -16,7 +21,7 @@ export default defineConfig({
         name: 'පවුලේ සභාව',
         short_name: 'පවුලේ සභාව',
         description: 'පවුලේ සභාව',
-        theme_color: '#42b983',
+        theme_color: '#2563EB',//'#42b983',
         background_color: 'transparent',
         display: 'standalone',
         start_url: "/",

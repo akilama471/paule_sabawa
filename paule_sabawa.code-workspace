@@ -4,5 +4,12 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"cSpell.words": [
+			"fortawesome",
+			"paule",
+			"PauleSabawa",
+			"sabawa"
+		]
+	}
 }
