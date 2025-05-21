@@ -2,7 +2,7 @@
     <div class="splash-screen" :class="{ 'visible': isVisible }">
         <div class="logo-container z-20 transition-all duration-1000" 
              :class="{ 'opacity-100 translate-y-0': isVisible, 'opacity-0 -translate-y-8': !isVisible }">
-            <img src="/img/opviha.jpg" alt="App Logo" class="responsive-image" />
+            <img src="/img/opviha.webp" alt="App Logo" class="responsive-image" />
         </div>
         <br />
     </div>
