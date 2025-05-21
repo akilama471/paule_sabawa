@@ -95,7 +95,7 @@ export default {
     <router-link v-if="isOnline" to="/about">
       <div
         class="ml-5 mr-5 max-w-sm rounded-2xl overflow-hidden shadow-lg bg-green-800 hover:shadow-2xl transition-shadow">
-        <img class="w-full h-42 object-cover rounded-t-2xl" src="../assets/what_is_paule_sabawa.webp"
+        <img class="w-full h-42 object-cover rounded-t-2xl" src="/img/what_is_paule_sabawa.webp"
           alt="What is paule sabawa">
       </div>
     </router-link>
@@ -103,7 +103,7 @@ export default {
     <router-link v-if="isOnline" to="/video">
       <div
         class="ml-5 mr-5 max-w-sm rounded-2xl overflow-hidden shadow-lg bg-green-800 hover:shadow-2xl transition-shadow">
-        <img class="w-full h-42 object-cover rounded-t-2xl" src="../assets/join_with_paule_sabawa.webp"
+        <img class="w-full h-42 object-cover rounded-t-2xl" src="/img/join_with_paule_sabawa.webp"
           alt="Join with paule sabawa">
       </div>
     </router-link>
@@ -111,7 +111,7 @@ export default {
     <router-link v-if="!isOnline" to="/book/1">
       <div
         class="ml-5 mr-5 max-w-sm rounded-2xl overflow-hidden shadow-lg bg-green-800 hover:shadow-2xl transition-shadow">
-        <img class="w-full h-42 object-cover rounded-t-2xl" src="../assets/book_of_paule_sabawa.webp"
+        <img class="w-full h-42 object-cover rounded-t-2xl" src="/img/book_of_paule_sabawa.webp"
           alt="Book of paule sabawa">
       </div>
     </router-link>

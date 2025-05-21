@@ -2,7 +2,7 @@
     <div class="splash-screen" :class="{ 'visible': isVisible }">
         <div class="logo-container mt-40 z-20 transition-all duration-1000" 
              :class="{ 'opacity-100 scale-100': isVisible, 'opacity-0 scale-90': !isVisible }">
-            <img src="../assets/logo.webp" alt="App Logo" class="rounded-full w-72 h-72" />
+            <img src="/img/logo.webp" alt="App Logo" class="rounded-full w-72 h-72" />
         </div>
         <br />
         <div class="flex items-center mt-4 z-20 transition-all duration-1000 delay-300"
