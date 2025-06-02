@@ -1,8 +1,5 @@
 ---
 
-### ✅ `README.md` for `Paule Sabawa`
-
-````markdown
 # Paule Sabawa
 
 **Paule Sabawa** is an open-source mobile application built using [Vue.js](https://vuejs.org/), [Tailwind CSS](https://tailwindcss.com/), and [Ionic Capacitor](https://capacitorjs.com/). It is designed for Christian community engagement, providing easy access to spiritual videos and audio content — all free to use.
