@@ -1,0 +1,11 @@
+{
+  "appId": "com.nextgenware.paulesabawa",
+  "appName": "paule_sabawa",
+  "webDir": "dist",
+  "plugins": {
+    "SplashScreen": {
+      "launchAutoHide": false,
+      "showSplashScreen": false
+    }
+  }
+}
