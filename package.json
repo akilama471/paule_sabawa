@@ -2,6 +2,31 @@
   "name": "paule_sabawa",
   "version": "0.0.0",
   "private": true,
+  "description": "Open-source mobile app built with Vue, Tailwind CSS, and Ionic Capacitor.",
+  "author": {
+    "name": "Akila Madhushanka",
+    "email": "developer.akila5@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akilama471/paule_sabawa/"
+  },
+  "bugs": {
+    "url": "https://github.com/akilama471/paule_sabawa/issues"
+  },
+  "homepage": "https://github.com/akilama471/paule_sabawa/#readme",
+  "company": "NextGenWare",
+  "contributors": [
+    {
+      "name": "Akila Madhushanka",
+      "email": "developer.akila5@gmail.com"
+    },
+    {
+      "name": "NextGenWare",
+      "email": "nextgenwarelk@gmail.com"
+    }
+  ],
   "scripts": {
     "build": "vite build",
     "dev": "vite --host",
