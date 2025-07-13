@@ -13,6 +13,7 @@
  * See LICENSE file in the root of the repository.
  */
 
+import { Capacitor } from '@capacitor/core';
 import { createApp } from 'vue';
 import { createPinia } from "pinia";
 
